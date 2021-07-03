@@ -6,21 +6,21 @@ How to Run:
 - Additionally, you can just run the UnitTest to test the library/algorithm
 
 3 Projects
-PriceOutlier			- This is main UI executable with simple LiveChart.
-						  No business logic here, just UI, not MVVM, not optimized
-						  Or just run [PriceOutlier.exe]
-								1) Click Load Data Points button to load all points
-								2) Toggle checkbox to show/hide outlier points
-PriceOutlierLib			- The business logic and project that contains the core outlier
-						  reading, importing, detection, data structures, etc...
-PriceOutlierUnitTest	- Simple unit test project
-						  Only test business layer (library)
+PriceOutlier            - This is main UI executable with simple LiveChart.
+                          No business logic here, just UI, not MVVM, not optimized
+                          Or just run [PriceOutlier.exe]
+                                1) Click Load Data Points button to load all points
+                                2) Toggle checkbox to show/hide outlier points
+PriceOutlierLib         - The business logic and project that contains the core outlier
+                          reading, importing, detection, data structures, etc...
+PriceOutlierUnitTest    - Simple unit test project
+                          Only test business layer (library)
 
 
 Notes
 - For simplicity, did not use any CSV lib
 - LiveChart is used
-	- not very efficient charting system, rather slow
+    - not very efficient charting system, rather slow
 - No optimization is done on the UI or charting system
 - Outlier detection algorithm is completely made-up, and not ideal as it probably can't handle all test cases
 
