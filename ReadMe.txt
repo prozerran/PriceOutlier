@@ -5,7 +5,7 @@ How to Run:
 - Make sure the startup project is set to PriceOutlier
 - Additionally, you can just run the UnitTest to test the library/algorithm
 
-3 Projects
+[3 Projects]
 PriceOutlier            - This is main UI executable with simple LiveChart.
                           No business logic here, just UI, not MVVM, not optimized
                           Or just run [PriceOutlier.exe]
@@ -23,6 +23,7 @@ Notes
     - not very efficient charting system, rather slow
 - No optimization is done on the UI or charting system
 - Outlier detection algorithm is completely made-up, and not ideal as it probably can't handle all test cases
+- Did not over complicate design as to leave room for changes
 
 Assumptions
 - CSV file does not continously grow with data in realtime
